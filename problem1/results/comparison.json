@@ -1,0 +1,14 @@
+{
+  "seed": 641,
+  "gamma": 0.95,
+  "epsilon": 0.0001,
+  "max_iter": 1000,
+  "value_iteration": {
+    "iterations": 31
+  },
+  "q_iteration": {
+    "iterations": 31
+  },
+  "policies_match": true,
+  "max_value_difference": 0.0
+}

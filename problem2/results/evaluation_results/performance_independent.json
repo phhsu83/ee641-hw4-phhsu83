@@ -1,0 +1,162 @@
+{
+  "performance": {
+    "num_episodes": 100,
+    "mean_reward": -35.869998931884766,
+    "std_reward": 10.66738510131836,
+    "min_reward": -41.0,
+    "max_reward": 4.5,
+    "success_rate": 0.07000000029802322,
+    "mean_steps_success": 7.857142857142857,
+    "mean_steps_fail": 50.0
+  },
+  "communication": {
+    "num_episodes": 20,
+    "mean_comm_A": 0.5602320432662964,
+    "mean_comm_B": 0.48265865445137024,
+    "var_comm_A": 0.002086811466142535,
+    "var_comm_B": 0.013580848462879658,
+    "corr_commA_dist": 0.8333178472565907,
+    "corr_commB_dist": -0.11975687859662748,
+    "success_rate": 0.0,
+    "comm_A_hist": [
+      0,
+      0,
+      1,
+      0,
+      304,
+      480,
+      215,
+      0,
+      0,
+      0
+    ],
+    "comm_B_hist": [
+      0,
+      0,
+      0,
+      417,
+      412,
+      4,
+      60,
+      107,
+      0,
+      0
+    ]
+  },
+  "generalization": {
+    "num_configs": 10,
+    "train_success_rate": 0.019999999552965164,
+    "train_mean_reward": -38.154998779296875,
+    "test_success_rate_mean": 0.007999999821186066,
+    "test_success_rate_std": 0.023999999463558196,
+    "test_mean_reward_mean": -48.37099990844727,
+    "test_mean_reward_std": 2.98284270278181,
+    "per_config": [
+      {
+        "num_episodes": 50,
+        "mean_reward": -49.75,
+        "std_reward": 1.75,
+        "min_reward": -50.0,
+        "max_reward": -37.5,
+        "success_rate": 0.0,
+        "mean_steps_success": null,
+        "mean_steps_fail": 50.0
+      },
+      {
+        "num_episodes": 50,
+        "mean_reward": -49.5,
+        "std_reward": 2.4000000953674316,
+        "min_reward": -50.0,
+        "max_reward": -37.5,
+        "success_rate": 0.0,
+        "mean_steps_success": null,
+        "mean_steps_fail": 50.0
+      },
+      {
+        "num_episodes": 50,
+        "mean_reward": -49.02000045776367,
+        "std_reward": 3.3255977630615234,
+        "min_reward": -50.0,
+        "max_reward": -37.5,
+        "success_rate": 0.0,
+        "mean_steps_success": null,
+        "mean_steps_fail": 50.0
+      },
+      {
+        "num_episodes": 50,
+        "mean_reward": -49.25,
+        "std_reward": 2.96858549118042,
+        "min_reward": -50.0,
+        "max_reward": -37.5,
+        "success_rate": 0.0,
+        "mean_steps_success": null,
+        "mean_steps_fail": 50.0
+      },
+      {
+        "num_episodes": 50,
+        "mean_reward": -49.47999954223633,
+        "std_reward": 2.397832155227661,
+        "min_reward": -50.0,
+        "max_reward": -37.5,
+        "success_rate": 0.0,
+        "mean_steps_success": null,
+        "mean_steps_fail": 50.0
+      },
+      {
+        "num_episodes": 50,
+        "mean_reward": -49.0,
+        "std_reward": 3.391165018081665,
+        "min_reward": -50.0,
+        "max_reward": -37.5,
+        "success_rate": 0.0,
+        "mean_steps_success": null,
+        "mean_steps_fail": 50.0
+      },
+      {
+        "num_episodes": 50,
+        "mean_reward": -49.0,
+        "std_reward": 4.898979663848877,
+        "min_reward": -50.0,
+        "max_reward": -25.0,
+        "success_rate": 0.0,
+        "mean_steps_success": null,
+        "mean_steps_fail": 50.0
+      },
+      {
+        "num_episodes": 50,
+        "mean_reward": -49.75,
+        "std_reward": 1.75,
+        "min_reward": -50.0,
+        "max_reward": -37.5,
+        "success_rate": 0.0,
+        "mean_steps_success": null,
+        "mean_steps_fail": 50.0
+      },
+      {
+        "num_episodes": 50,
+        "mean_reward": -49.5,
+        "std_reward": 2.4494898319244385,
+        "min_reward": -50.0,
+        "max_reward": -37.5,
+        "success_rate": 0.0,
+        "mean_steps_success": null,
+        "mean_steps_fail": 50.0
+      },
+      {
+        "num_episodes": 50,
+        "mean_reward": -39.459999084472656,
+        "std_reward": 13.657540321350098,
+        "min_reward": -50.0,
+        "max_reward": 6.0,
+        "success_rate": 0.07999999821186066,
+        "mean_steps_success": 8.0,
+        "mean_steps_fail": 50.0
+      }
+    ]
+  },
+  "summary": {
+    "performance_success_rate": 0.07000000029802322,
+    "performance_mean_reward": -35.869998931884766,
+    "generalization_test_success_rate_mean": 0.007999999821186066
+  }
+}
